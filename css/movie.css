@@ -1,0 +1,128 @@
+.movie {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.movie-container {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    margin-bottom: 30px;
+}
+
+.movie-left-container {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.movie-info-container {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    width: 600px;
+}
+
+.movie-info {
+    padding: 0;
+}
+
+.movie-info-item {
+    margin-bottom: 5px;
+}
+
+.movie-actor-list {
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.movie-actor-list>li:before {
+    content: "| ";
+}
+
+.movie-title {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 65px;
+}
+
+.rating-star {
+    height: 1rem;
+}
+
+.movie-rating {}
+
+.movie-actor-list {}
+
+.movie-genre {}
+
+.movie-release {}
+
+.movie-synopsis {}
+
+.movie-poster {
+    height: 700px;
+    width: 477px;
+    -webkit-box-shadow: 5px 5px 25px 5px rgba(12, 12, 12, 0.836);
+    box-shadow: 5px 5px 25px 5px rgba(12, 12, 12, 0.836);
+}
+
+.watch-movie-button {
+    font-size: 20px;
+    -webkit-box-shadow: 5px 5px 25px 5px rgba(12, 12, 12, 0.836);
+    box-shadow: 5px 5px 25px 5px rgba(12, 12, 12, 0.836);
+}
+
+.movie-video {
+    width: 100%;
+    outline: none;
+    -webkit-box-shadow: 5px 5px 25px 5px rgba(12, 12, 12, 0.836);
+    box-shadow: 5px 5px 25px 5px rgba(12, 12, 12, 0.836);
+}
+
+.related-movies-title {
+    padding-left: 5%;
+}
+
+.related-movies-container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px 20px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 688px) {
+    .related-movies-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .movie-container {
+        gap: 15px;
+    }
+    .movie-left-container {
+        align-items: center;
+        width: 80vw;
+    }
+    .movie-poster {
+        width: 300px;
+        height: 440px;
+    }
+    .watch-movie-button {
+        width: 300px;
+    }
+}

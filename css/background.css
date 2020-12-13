@@ -1,0 +1,13 @@
+.background {
+    height: 100%;
+    min-height: 100vh;
+    position: fixed;
+    width: 100vw;
+    z-index: -1;
+    opacity: .4;
+}
+
+.background-img {
+   min-width: 100%;
+   min-height: 100%;
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <title>Cat Wars | Catflix</title>
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/posters.css">
+    <link rel="stylesheet" href="/css/movie.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/animations.css">
+</head>
+
+<body>
+    <header class=navbar-header>
+        <a href="/src/home.html"><img src="/svg/logo.svg" alt="Logo de Catflix" class=logo-header></a>
+
+        <nav class="navbar">
+            <input type="checkbox" id="burger-checkbox" />
+            <label for="burger-checkbox" class="burger-label"></label>
+            <div class="menu-active"></div>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="/src/not-found.html" class="navbar-link">Novedades</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/src/not-found.html" class="navbar-link">Éxitos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/src/not-found.html" class="navbar-link">Clásicos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/src/not-found.html" class="navbar-link">Favoritos</a>
+                </li>
+            </ul>
+
+            <form action="#" class="search-container">
+                <input type="text" placeholder="Buscar" class="search-input">
+
+                <img src="/img/search-icon.png" alt="Buscar" class="search-icon">
+            </form>
+
+            <a href="/src/login.html" class="logout-link">
+                <img src="/img/logout.png" alt="Cerrar sesión" class="logout">
+            </a>
+
+        </nav>
+
+    </header>
+
+    <section class="movie">
+        <h1 class="movie-title">Cat Wars</h1>
+
+        <div class="movie-container">
+
+            <aside class="movie-left-container">
+                <img src="/img/movies/cat-wars.jpg" alt="Cat Wars" class="movie-poster">
+                <button class="watch-movie-button">Ver</button>
+            </aside>
+
+            <article class="movie-info-container">
+                <ul class="movie-info">
+                    <li class="movie-info-item movie-rating"> <img src="/img/star.png" alt="Estrella"
+                            class="rating-star"> 8.2</li>
+                    <li class="movie-info-item movie-genre">Género: Acción, Aventura</li>
+                    <li class="movie-info-item movie-release">Año: 2015</li>
+                    <li class="movie-info-item movie-duration">Duración: 136 min</li>
+                    <li class="movie-info-item movie-country">País: Estados Maullidos</li>
+                </ul>
+                <span>Reparto</span>
+                <ul class="movie-actor-list">
+                    <li class="actor">Cat Hamill</li>
+                    <li class="actor">Laser Ridley</li>
+                    <li class="actor">Adam Litter</li>
+                    <li class="actor">Harrison Fold</li>
+                    <li class="actor">Ewan MeowGregor</li>
+                </ul>
+
+                <p class="movie-synopsis">
+                    Spend all night ensuring people don't sleep sleep all day walk on car leaving trail of paw prints on
+                    hood
+                    and
+                    windshield. Poop in litter box, scratch the walls eat and than sleep on your face wake up human for
+                    food
+                    at
+                    4am.
+                    Dream about hunting birds. Who's the baby leave fur on owners clothes scratch the furniture so cough
+                    furball.
+                    Refuse to leave cardboard box. Stare at ceiling light. Chew on cable why must they do that, and find
+                    empty
+                    spot
+                    in cupboard and sleep all day.Purr swat at dog, yet poop in litter box, scratch the walls. Eat
+                    owner's
+                    food
+                    destroy couch. Sleep on dog bed,force dog to sleep on floor make food, make cute face so stare at
+                    ceiling.
+                </p>
+                <video width="400" controls autoplay muted class="movie-video">
+                    <source src="/video/catwars.mp4" type="video/mp4">
+                    <span class="text-warning">Tu navegador no soporta vídeos en html. Igual toca ir
+                        actualizando.</span>
+                </video>
+            </article>
+        </div>
+    </section>
+
+    <section class="related-movies">
+
+        <h1 class="related-movies-title">Qué ver después</h1>
+
+        <div class="related-movies-container">
+
+            <div class="movie-card" id="the-martian-cat">
+
+                <img src="/img/favorite-unchecked.png" alt="Favorito" class="favorite-card-icon">
+
+
+                <a href="/src/not-found.html" class="movie-card-link">
+
+                    <div class="card-info">
+                        <h1 class="movie-card-title">The Martian Cat</h1>
+                        <div class="movie-card-info">
+                            <div class="movie-card-details">
+                                <h2 class="movie-card-rating">5.2</h2>
+                                <h2 class="movie-card-release">2018</h2>
+                            </div>
+                            <p class="movie-card-synopsis">
+                                Stare at ceiling light or see owner, run in terror, but thinking longingly about tuna
+                                brine.
+                                Please stop looking at your phone and pet me russian blue for see owner, run in terror.
+                                Ears
+                                back wide eyed.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="movie-card" id="catnip-war">
+
+
+                <img src="/img/favorite-checked.png" alt="Favorito" class="favorite-card-icon">
+
+
+                <a href="/src/not-found.html" class="movie-card-link">
+
+                    <div class="card-info">
+                        <h1 class="movie-card-title">Catnip War</h1>
+                        <div class="movie-card-info">
+                            <div class="movie-card-details">
+                                <h2 class="movie-card-rating">8.7</h2>
+                                <h2 class="movie-card-release">2018</h2>
+                            </div>
+                            <p class="movie-card-synopsis">
+                                Spend all night ensuring people don't sleep sleep all day intrigued by the shower. Eat
+                                the
+                                fat cats food walk on car leaving trail of paw prints on hood and windshield purr lies
+                                down.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="movie-card" id="saving-private-mittens">
+
+
+                <img src="/img/favorite-checked.png" alt="Favorito" class="favorite-card-icon">
+
+
+                <a href="/src/not-found.html" class="movie-card-link">
+
+                    <div class="card-info">
+                        <h1 class="movie-card-title">Saving Private Mittens</h1>
+                        <div class="movie-card-info">
+                            <div class="movie-card-details">
+                                <h2 class="movie-card-rating">5.2</h2>
+                                <h2 class="movie-card-release">2018</h2>
+                            </div>
+                            <p class="movie-card-synopsis">
+                                Bleghbleghvomit my furball really tie the room together stare at ceiling chase ball of
+                                string meowzer! Purr curl up and sleep on the freshly laundered towels.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="movie-card" id="paws">
+
+
+                <img src="/img/favorite-checked.png" alt="Favorito" class="favorite-card-icon">
+
+
+                <a href="/src/not-found.html" class="movie-card-link">
+
+                    <div class="card-info">
+                        <h1 class="movie-card-title">Paws</h1>
+                        <div class="movie-card-info">
+                            <div class="movie-card-details">
+                                <h2 class="movie-card-rating">5.2</h2>
+                                <h2 class="movie-card-release">2018</h2>
+                            </div>
+                            <p class="movie-card-synopsis">
+                                Mark territory pelt around the house and up and down stairs chasing phantoms. Refuse to
+                                leave cardboard box. Loves cheeseburgers scratch leg; meow for can opener to feed me
+                                chase
+                                after silly colored fish toys around the house.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <h1 class="footer-title">¿Algo no te queda miau claro? Dale una vuelta al ovillo</h1>
+            <ul class="footer-link-list">
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Preguntas frecuentes</a></li>
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Centro de ayuda</a></li>
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Términos de uso</a></li>
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Privacidad</a></li>
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Preferencias de cookies</a>
+                </li>
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Información corporativa</a>
+                </li>
+            </ul>
+            <span class="footer-origin">Catflix España</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>

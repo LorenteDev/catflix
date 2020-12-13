@@ -1,0 +1,64 @@
+.countdown-container {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 80vw;
+}
+
+.timer-list {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 35px;
+}
+
+.timer-item {
+    font-size: 40px;
+}
+
+.subscribe-form-container {
+    margin: 0 auto;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;   
+    gap: 20px;
+    align-items: center;
+}
+
+.subscribe-form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;   
+    gap: 20px;
+    align-items: center;
+}
+
+.subscribe-form-title {
+    text-align: center;
+}
+
+.alert-email {
+    width: 100%;
+}
+
+.alert-select {
+    width: 80%;
+}
+
+.subscribe-button {
+    width: 80%;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+    .timer-item {
+        font-size: 20px;
+    }
+    .timer-list {
+        gap: 0px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

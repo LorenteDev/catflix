@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <title>Countdown | Catflix</title>
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/posters.css">
+    <link rel="stylesheet" href="/css/movie.css">
+    <link rel="stylesheet" href="/css/countdown.css">
+    <link rel="stylesheet" href="/css/animations.css">
+</head>
+
+<body>
+    <header class=navbar-header>
+        <a href="/src/home.html"><img src="/svg/logo.svg" alt="Logo de Catflix" class=logo-header></a>
+
+        <nav class="navbar">
+            <input type="checkbox" id="burger-checkbox" />
+            <label for="burger-checkbox" class="burger-label"></label>
+            <div class="menu-active"></div>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="/src/not-found.html" class="navbar-link">Novedades</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/src/not-found.html" class="navbar-link">Éxitos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/src/not-found.html" class="navbar-link">Clásicos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/src/not-found.html" class="navbar-link">Favoritos</a>
+                </li>
+            </ul>
+
+            <form action="#" class="search-container">
+                <input type="text" placeholder="Buscar" class="search-input">
+
+                <img src="/img/search-icon.png" alt="Buscar" class="search-icon">
+            </form>
+
+            <a href="/src/login.html" class="logout-link">
+                <img src="/img/logout.png" alt="Cerrar sesión" class="logout">
+            </a>
+
+        </nav>
+
+    </header>
+
+    <section class="countdown-container">
+        <ul class="timer-list">
+            <li class="timer-item">
+                <span class="timer-days">3 días</span>
+            </li>
+            <li class="timer-item">
+                <span class="timer-hours">21 horas</span>
+            </li>
+            <li class="timer-item">
+                <span class="timer-minutes">23 minutos</span>
+            </li>
+            <li class="timer-item">
+                <span class="timer-seconds">5 segundos</span>
+            </li>
+        </ul>
+    </section>
+
+    <section class="movie">
+        <h1 class="movie-title">Cat Wars</h1>
+
+        <div class="movie-container">
+
+            <aside class="movie-left-container">
+                <img src="/img/movies/cat-wars.jpg" alt="Cat Wars" class="movie-poster">
+            </aside>
+
+            <article class="movie-info-container">
+                <ul class="movie-info">
+                    <li class="movie-info-item movie-rating"> <img src="/img/star.png" alt="Estrella"
+                            class="rating-star"> 8.2</li>
+                    <li class="movie-info-item movie-genre">Género: Acción, Aventura</li>
+                    <li class="movie-info-item movie-release">Año: 2015</li>
+                    <li class="movie-info-item movie-duration">Duración: 136 min</li>
+                    <li class="movie-info-item movie-country">País: Estados Maullidos</li>
+                </ul>
+                <span>Reparto</span>
+                <ul class="movie-actor-list">
+                    <li class="actor">Cat Hamill</li>
+                    <li class="actor">Laser Ridley</li>
+                    <li class="actor">Adam Litter</li>
+                    <li class="actor">Harrison Fold</li>
+                    <li class="actor">Ewan MeowGregor</li>
+                </ul>
+
+                <p class="movie-synopsis">
+                    Spend all night ensuring people don't sleep sleep all day walk on car leaving trail of paw prints on
+                    hood
+                    and
+                    windshield. Poop in litter box, scratch the walls eat and than sleep on your face wake up human for
+                    food
+                    at
+                    4am.
+                    Dream about hunting birds. Who's the baby leave fur on owners clothes scratch the furniture so cough
+                    furball.
+                    Refuse to leave cardboard box. Stare at ceiling light. Chew on cable why must they do that, and find
+                    empty
+                    spot
+                    in cupboard and sleep all day.Purr swat at dog, yet poop in litter box, scratch the walls. Eat
+                    owner's
+                    food
+                    destroy couch. Sleep on dog bed,force dog to sleep on floor make food, make cute face so stare at
+                    ceiling.
+                </p>
+                <video width="400" controls autoplay muted class="movie-video">
+                    <source src="/video/catwars.mp4" type="video/mp4">
+                    <span class="text-warning">Tu navegador no soporta vídeos en html. Igual toca ir
+                        actualizando.</span>
+                </video>
+            </article>
+        </div>
+    </section>
+
+    <section class="subscribe-form-container">
+
+        <h1 class="subscribe-form-title">Entérate del estreno antes que nadie</h1>
+
+        <form action="#" class="subscribe-form">
+
+            <input type="email" placeholder="Email" autocomplete="email" class="alert-email">
+
+            <select name="alert-time" class="alert-select">
+                <option value="0">Al momento</option>
+                <option value="1">Un día antes</option>
+                <option value="7">Una semana antes</option>
+            </select>
+
+            <button type="submit" class="subscribe-button">¡Avísame!</button>
+
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <h1 class="footer-title">¿Algo no te queda miau claro? Dale una vuelta al ovillo</h1>
+            <ul class="footer-link-list">
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Preguntas frecuentes</a></li>
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Centro de ayuda</a></li>
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Términos de uso</a></li>
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Privacidad</a></li>
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Preferencias de cookies</a>
+                </li>
+                <li class="footer-item"><a href="/src/not-found.html" class="footer-link">Información corporativa</a>
+                </li>
+            </ul>
+            <span class="footer-origin">Catflix España</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
