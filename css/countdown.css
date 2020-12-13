@@ -13,6 +13,10 @@
     gap: 35px;
 }
 
+.countdown-date {
+    text-align: center;
+}
+
 .timer-item {
     font-size: 40px;
 }
